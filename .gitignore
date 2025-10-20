@@ -1,0 +1,26 @@
+# OS / editor
+.DS_Store
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (keep private by default)
+data/
+data_private/
+*.zip
+*.tar.gz
+
+# Model weights / artifacts (use releases or LFS if needed)
+*.pt
+*.pth
+
+# Caches
+.cache/
+**/.cache
+**/.pytest_cache
